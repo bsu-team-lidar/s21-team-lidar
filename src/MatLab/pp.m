@@ -1,4 +1,4 @@
-
+%comment
 function [croppedPC, croppedLabels] = pp(pcdFolder, groundTruthPath, trainingFolder)
     
 f = waitbar(0,'Loading Point Cloud Data...');
